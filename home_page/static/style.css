@@ -1,0 +1,63 @@
+body {
+    background-color: #6279B8;
+}
+
+.contact-col {
+    /* background-color: turquoise; */
+    text-align: center;
+
+
+}
+
+#contact-container {
+    background-color: #FFFFFF;
+    border: solid #D8E1FF 3px;
+    border-radius: 10px;
+    padding: 2%;
+    box-shadow: 2px 2px 2px #2B303B;
+}
+
+#contact-header-text {
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: #EDCF8E 3px solid;
+    color: #808088;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+}
+
+.contact-label {
+    /* background-color: wheat; */
+    text-align: center;
+    border-bottom: solid 1px #8384C3;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+}
+
+.contact-info {
+    /* background-color: tomato; */
+    color: #808088;
+}
+
+.contact-row {
+    /* background-color: violet; */
+    margin: 2%;
+    padding: 1%;
+    
+}
+
+#header-row {
+    background-color: #C8C2FF;
+    padding: 2%;
+}
+
+.contact-icon {
+    color:  #FF9F1C;
+    padding: 1%;
+    margin: 1%;
+}
+
+#linkedin-icon {
+    background-color: #0E76A8;
+    color: #FFFFFF;
+}

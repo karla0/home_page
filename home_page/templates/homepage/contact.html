@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Contact
+{% endblock %}
+
+{% block main %}
+    <div class="container h-100" id="contact-container">
+        <div class="row contact-row justify-content-center">
+            <div class="col col-12 contact-col" id="contact-header-col">
+                <p id="contact-header-text">Contact Info <i class="fa fa-address-card contact-icon"></i></p>
+            </div>
+        </div>
+        <div class="row contact-row justify-content-center">
+            <div class="col col-7 contact-col">
+                <p class="contact-label p-1">E-Mail <i class="fa fa-envelope-open contact-icon"></i></p>
+            </div>
+        </div>
+        <div class="row contact-row justify-content-center">
+            <div class="col col-12 contact-col">
+                <a class="contact-info p-2" href="mailto:karlavalencia@protonmail.com">karlavalencia@protonmail.com</a>
+            </div>
+        </div>
+        <div class="row contact-row justify-content-center">
+            <div class="col col-7 contact-col ">
+                <p class="contact-label p-2">Phone Number <i class="fa fa-comment contact-icon"></i></p>
+            </div>
+        </div>
+        <div class="row contact-row justify-content-center">
+            <div class="col col-12 contact-col">
+                <a class="contact-info p-2" href="tel:+1323-243-9359">(323)243-9359</a>
+            </div>
+        </div>
+        <div class="row contact-row justify-content-center">
+            <div class="col col-7 contact-col">
+                <p class="contact-label p-1">Socials <i class="fa fa-star contact-icon"></i></p>
+            </div>
+        </div>
+        <div class="row contact-row justify-content-center">
+            <div class="col col-12 contact-col">
+                <div class="contact-info">
+                    <a href="https://www.linkedin.com/in/karlaval/" class="btn btn-social-icon btn-linkedin" id="linkedin-icon">
+                        <span class="fa fa-linkedin"></span>
+                      </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+{% endblock %}
