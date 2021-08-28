@@ -6,7 +6,11 @@ body {
     /* background-color: turquoise; */
     text-align: center;
 
+}
 
+.contact-col a:hover {
+    color: #BF1363;
+    text-decoration: none;
 }
 
 #contact-container {
@@ -49,6 +53,7 @@ body {
 #header-row {
     background-color: #C8C2FF;
     padding: 2%;
+    border-bottom: solid #FFE8C2 2px;
 }
 
 .contact-icon {
@@ -60,4 +65,5 @@ body {
 #linkedin-icon {
     background-color: #0E76A8;
     color: #FFFFFF;
+    box-shadow: 4px 5px 5px #808088;
 }
