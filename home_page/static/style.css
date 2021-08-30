@@ -68,6 +68,18 @@ body {
     box-shadow: 4px 5px 5px #808088;
 }
 
+#navbar-header {
+    color: #6A4C93;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+}
+
+.nav-icon {
+   padding-right: 5%;
+   color: #FFEEDD;
+}
+
+
 #resume-apple {
     font-size: 1.2em;
     font-weight: bold;
@@ -87,12 +99,19 @@ body {
     /* background-color: blue; */
     padding: 1%;
     margin: 1%;
+    font-size: 0.8em;
+    width: 80%;
 }
 
 
 .resume-descr-row {
     /* background-color: orangered; */
     border-bottom: #8390FA solid 2px;
+    padding: 2%;
+}
+
+#resume-descr-row-last {
+    border-bottom: 0;
 }
 
 
@@ -126,6 +145,79 @@ body {
     margin-top: 5%;
 }
 
-.resume-position-row {
+/* .resume-position-row {
     /* background-color: orange; */
+
+.project-div {
+    background-color: #FFFFFF;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px #3d3d3d;
+}
+
+.project-div a:hover {
+    color:#CA1551;
+}
+
+.project-description {
+    padding: 2%;
+    /* background-color: #BF1363; */
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+    padding: 3%;
+    margin: 3%;
+}
+
+.project-link {
+    color: #4C5257;
+    padding: 2%;
+    text-decoration: underline;
+    background-color: #D8CCE1;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    font-size: .8em;
+}
+
+
+.project-section {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.project-stack-header {
+    font-size: .8em;
+    padding: 2%;
+    /* background-color: orchid; */
+    text-align: center;
+    border-bottom: 1px solid #5C164E;
+    font-weight: bold;
+}
+
+.project-stack-item {
+    font-size: .7em;
+    font-style: italic;
+    margin: 0;
+}
+
+.project-stack-list {
+    list-style-type: none;
+    text-align: center;
+}
+
+
+.project-stack-section{
+    /* background-color: #C8C2FF; */
+    width: 50%;
+}
+
+.project-title {
+    font-weight: bold;
+    background-color: #49376C;
+    text-decoration: underline;
+    color: #FFFFFF;
+    padding: 2%;
+    border-radius: 10px 10px 0 0;
 }

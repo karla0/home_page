@@ -12,9 +12,9 @@
         <title>{% block title %}{% endblock %} - Karla Valencia</title>
     </head>
     <body>
-        <div class="container">
+        <div class="container-fluid">
             <header class="row" id="header-row">
-                <nav class="navbar navbar-expand-sm navbar-light col" id="navbar">
+                <nav class="navbar navbar-expand-md navbar-light col" id="navbar">
                         <a id="navbar-header" class="navbar-brand" href="{{ url_for('homepage.index') }}">Karla Valencia</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -22,26 +22,26 @@
         
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                         <div class="navbar-nav ">
-                            <a class="nav-item nav-link" href="{{ url_for('homepage.index') }}">Home</a>
-                            <a class="nav-item nav-link" href="{{ url_for('homepage.portfolio') }}">Portfolio</a>
-                            <a class="nav-item nav-link" href="{{ url_for('homepage.resume') }}">Resume</a>
-                            <a class="nav-item nav-link" href="{{ url_for('homepage.contact') }}">Contact</a>
+                            <a class="nav-item nav-link" href="{{ url_for('homepage.index') }}"><i class="fa fa-home nav-icon"></i>Home</a>
+                            <a class="nav-item nav-link" href="{{ url_for('homepage.portfolio') }}"><i class="fa fa-code nav-icon"></i> Portfolio</a>
+                            <a class="nav-item nav-link" href="{{ url_for('homepage.resume') }}"><i class="fa fa-file nav-icon"></i> Resume</a>
+                            <a class="nav-item nav-link" href="{{ url_for('homepage.contact') }}"><i class="fa fa-address-card nav-icon"></i>Contact</a>
                         </div>
                     </div>
                 </nav>
             </header>
             <main class="row mt-3 justify-content-center">
-                    <div class="col col-10">
+                    <div class="col mt-4 col-10">
                         {% block main %}{% endblock %}
                         {% block contact%}{% endblock %}
                     </div>
             </main>
             <div class="row mt-3 justify-content-center" id="resume-main-div">
-                <div class="col col-10">
+                <div class="col col-xl-5 ">
                     {% block resume %}{% endblock %}
                 </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col">
                     {% block portfolio %}{% endblock %}
                 </div>
